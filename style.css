@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #08266f;
+
+
+}
+header {
+    text-align: left;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    border: white 2px solid;
+}
+section {
+    margin: 20px 0;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    width: 120px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+h2 {
+    color: #007bff;
+}
+
+li {
+    margin-bottom: 10px;
+}
